@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "iEEG_comprehensive_HFA_model_part1",
-  "description": "This dataset comprises intracranial EEG recordings acquired during non-REM sleep from multiple subjects. The data were collected to develop and validate a comprehensive model of high-frequency activity (HFA) in epilepsy research. This represents part 1 of a multi-part dataset designed to characterize neural oscillations and their clinical significance during sleep states. This dataset is a curated version of OpenNeuro dataset ds007118 (v1.0.0), with additional enrichment and standardization for the NEMAR platform.",
+  "description": "This dataset comprises intracranial EEG recordings acquired during non-REM sleep from multiple subjects. The data were collected to develop and validate a comprehensive model of high-frequency activity (HFA) in epilepsy research. This represents part 1 of a multi-part dataset designed to characterize neural oscillations and their clinical significance during sleep states.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -45,6 +45,9 @@
     },
     {
       "term": "iEEG"
+    },
+    {
+      "term": "multi-center"
     }
   ],
   "related_identifiers": [
@@ -60,6 +63,11 @@
     },
     {
       "identifier": "10.18112/openneuro.ds007118.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007118",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     }
@@ -100,6 +108,10 @@
     {
       "funder_name": "Japan Society for the Promotion of Science",
       "award_number": "202560576"
+    },
+    {
+      "funder_name": "Japan Society for the Promotion of Science",
+      "award_number": "JP22K09296"
     }
   ],
   "resource_type_general": "Dataset",
